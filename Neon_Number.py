@@ -1,10 +1,11 @@
 n=int(input())
-sqr=n*n
-sum=0
-while sqr>0:
-    sum=sum+sqr%10
-    sqr=sqr//10
-if (n==sum):
+s=n*n
+x=0
+while s>0:
+    r=s%10
+    x=x+r
+    s=s//10
+if(x==n):
     print("Neon Number")
 else:
     print("Not Neon Number")
