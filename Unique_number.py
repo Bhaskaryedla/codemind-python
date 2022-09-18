@@ -1,9 +1,9 @@
-n=int(input())
-m=str(n)
-x=list(m)
-y=set(x)
-y=list(y)
-if len(y)==len(x):
+m=int(input())
+n=str(m)
+o=list(n)
+p=set(o)
+p=list(p)
+if len(p)==len(o):
     print("Unique Number")
 else:
     print("Not Unique Number")
